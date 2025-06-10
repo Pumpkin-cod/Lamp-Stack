@@ -1,9 +1,9 @@
   GNU nano 7.2                      db.php                                
 <?php
-$host = 'lampdb-instance-1.ctegasi6yx37.eu-west-1.rds.amazonaws.com';
-$db = 'lampdb';
-$user = 'lampadmin';
-$pass = '2378Mike$';
+$host = 'lamp-database-1-instance-1-eu-west-1b.cv2ueq6sqd4i.eu-west-1.rds.amazonaws.com';
+$db = 'lamp_app';
+$user = 'admin';
+$pass = 'mypassword';
 $charset = 'utf8mb4'; 
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
