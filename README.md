@@ -37,7 +37,7 @@ The application files are located at `/var/www/html` and include:
 
 - Launch an EC2 instance (`LAMP-Server`) in a public subnet
 - Set up security groups to allow HTTP and SSH access
-- Deploy Amazon Aurora (`lampdb`) in a private subnet within the same VPC
+- Deploy Amazon Aurora (`lamp_app`) in a private subnet within the same VPC
 
 ### 3. Install and Configure LAMP Stack
 
@@ -48,7 +48,7 @@ The application files are located at `/var/www/html` and include:
 
 ### 4. Connect to Aurora Database
 
-- Use `db.php` to securely connect the PHP app to `lampdb`
+- Use `db.php` to securely connect the PHP app to `lamp_app`
 - Ensure the EC2 instance can reach the Aurora endpoint via VPC networking
 - Store DB credentials securely (consider AWS Secrets Manager)
 
