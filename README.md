@@ -6,13 +6,13 @@ This project demonstrates how to deploy a simple LAMP (Linux, Apache, MySQL-comp
 
 The application is currently hosted and accessible at:
 
-🔗 [http://3.250.2.88/index.php](http://3.250.2.88/index.php)
+🔗 [http://54.72.80.82/index.php](http://54.72.80.82/index.php)
 
 ## Project Architecture
 
 - **Web Server**: Apache running on Amazon EC2 (`LAMP-Server`)
 - **Application Language**: PHP
-- **Database**: Amazon Aurora (MySQL-compatible) named `lampdb`
+- **Database**: Amazon Aurora (MySQL-compatible) named `lamp_app`
 
 ## Application Structure
 
