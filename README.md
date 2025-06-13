@@ -6,7 +6,10 @@ This project demonstrates how to deploy a simple LAMP (Linux, Apache, MySQL-comp
 
 The application is currently hosted and accessible at:
 
-🔗 [http://54.72.80.82/index.php](http://54.72.80.82/index.php)
+ http://54.246.246.212/index.php  (for mySQL Database)
+
+🔗 [http://54.72.80.82/index.php](http://54.72.80.82/index.php) (For Aurora Database)
+  
 
 ## Project Architecture
 
